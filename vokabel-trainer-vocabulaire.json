@@ -1,0 +1,915 @@
+{
+  "version": 1,
+  "words": [
+    {
+      "id": "seed-1",
+      "level": "A1",
+      "de": "das Haus",
+      "fr": "la maison",
+      "note": ""
+    },
+    {
+      "id": "seed-2",
+      "level": "A1",
+      "de": "der Apfel",
+      "fr": "la pomme",
+      "note": ""
+    },
+    {
+      "id": "seed-3",
+      "level": "A1",
+      "de": "das Wasser",
+      "fr": "l’eau",
+      "note": ""
+    },
+    {
+      "id": "seed-4",
+      "level": "A1",
+      "de": "die Familie",
+      "fr": "la famille",
+      "note": ""
+    },
+    {
+      "id": "seed-5",
+      "level": "A1",
+      "de": "der Freund",
+      "fr": "l’ami",
+      "note": ""
+    },
+    {
+      "id": "seed-6",
+      "level": "A1",
+      "de": "die Schule",
+      "fr": "l’école",
+      "note": ""
+    },
+    {
+      "id": "seed-7",
+      "level": "A1",
+      "de": "essen",
+      "fr": "manger",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-8",
+      "level": "A1",
+      "de": "trinken",
+      "fr": "boire",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-9",
+      "level": "A1",
+      "de": "gehen",
+      "fr": "aller",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-10",
+      "level": "A1",
+      "de": "kommen",
+      "fr": "venir",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-11",
+      "level": "A1",
+      "de": "klein",
+      "fr": "petit",
+      "note": ""
+    },
+    {
+      "id": "seed-12",
+      "level": "A1",
+      "de": "groß",
+      "fr": "grand",
+      "note": ""
+    },
+    {
+      "id": "seed-13",
+      "level": "A1",
+      "de": "heute",
+      "fr": "aujourd’hui",
+      "note": ""
+    },
+    {
+      "id": "seed-14",
+      "level": "A1",
+      "de": "morgen",
+      "fr": "demain",
+      "note": ""
+    },
+    {
+      "id": "seed-15",
+      "level": "A1",
+      "de": "das Buch",
+      "fr": "le livre",
+      "note": ""
+    },
+    {
+      "id": "seed-16",
+      "level": "A1",
+      "de": "die Stadt",
+      "fr": "la ville",
+      "note": ""
+    },
+    {
+      "id": "seed-17",
+      "level": "A1",
+      "de": "der Tisch",
+      "fr": "la table",
+      "note": ""
+    },
+    {
+      "id": "seed-18",
+      "level": "A1",
+      "de": "die Tür",
+      "fr": "la porte",
+      "note": ""
+    },
+    {
+      "id": "seed-19",
+      "level": "A1",
+      "de": "schön",
+      "fr": "beau / belle",
+      "note": ""
+    },
+    {
+      "id": "seed-20",
+      "level": "A1",
+      "de": "kaufen",
+      "fr": "acheter",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-21",
+      "level": "A1",
+      "de": "arbeiten",
+      "fr": "travailler",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-22",
+      "level": "A1",
+      "de": "sprechen",
+      "fr": "parler",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-23",
+      "level": "A1",
+      "de": "das Kind",
+      "fr": "l’enfant",
+      "note": ""
+    },
+    {
+      "id": "seed-24",
+      "level": "A1",
+      "de": "die Zeit",
+      "fr": "le temps",
+      "note": ""
+    },
+    {
+      "id": "seed-25",
+      "level": "A1",
+      "de": "gut",
+      "fr": "bon / bien",
+      "note": ""
+    },
+    {
+      "id": "seed-26",
+      "level": "A1",
+      "de": "müde",
+      "fr": "fatigué",
+      "note": ""
+    },
+    {
+      "id": "seed-27",
+      "level": "A1",
+      "de": "der Morgen",
+      "fr": "le matin",
+      "note": ""
+    },
+    {
+      "id": "seed-28",
+      "level": "A1",
+      "de": "die Frage",
+      "fr": "la question",
+      "note": ""
+    },
+    {
+      "id": "seed-29",
+      "level": "A1",
+      "de": "antworten",
+      "fr": "répondre",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-30",
+      "level": "A1",
+      "de": "das Geld",
+      "fr": "l’argent",
+      "note": ""
+    },
+    {
+      "id": "seed-31",
+      "level": "A2",
+      "de": "die Erfahrung",
+      "fr": "l’expérience",
+      "note": ""
+    },
+    {
+      "id": "seed-32",
+      "level": "A2",
+      "de": "vergessen",
+      "fr": "oublier",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-33",
+      "level": "A2",
+      "de": "sich erinnern",
+      "fr": "se souvenir",
+      "note": "verbe pronominal"
+    },
+    {
+      "id": "seed-34",
+      "level": "A2",
+      "de": "die Einladung",
+      "fr": "l’invitation",
+      "note": ""
+    },
+    {
+      "id": "seed-35",
+      "level": "A2",
+      "de": "die Gesundheit",
+      "fr": "la santé",
+      "note": ""
+    },
+    {
+      "id": "seed-36",
+      "level": "A2",
+      "de": "bequem",
+      "fr": "confortable",
+      "note": ""
+    },
+    {
+      "id": "seed-37",
+      "level": "A2",
+      "de": "die Umgebung",
+      "fr": "les environs",
+      "note": ""
+    },
+    {
+      "id": "seed-38",
+      "level": "A2",
+      "de": "sparen",
+      "fr": "économiser",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-39",
+      "level": "A2",
+      "de": "die Rechnung",
+      "fr": "la facture / l’addition",
+      "note": ""
+    },
+    {
+      "id": "seed-40",
+      "level": "A2",
+      "de": "umziehen",
+      "fr": "déménager",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-41",
+      "level": "A2",
+      "de": "pünktlich",
+      "fr": "ponctuel",
+      "note": ""
+    },
+    {
+      "id": "seed-42",
+      "level": "A2",
+      "de": "die Möglichkeit",
+      "fr": "la possibilité",
+      "note": ""
+    },
+    {
+      "id": "seed-43",
+      "level": "A2",
+      "de": "der Verkehr",
+      "fr": "la circulation",
+      "note": ""
+    },
+    {
+      "id": "seed-44",
+      "level": "A2",
+      "de": "teilnehmen",
+      "fr": "participer",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-45",
+      "level": "A2",
+      "de": "die Nachricht",
+      "fr": "le message / la nouvelle",
+      "note": ""
+    },
+    {
+      "id": "seed-46",
+      "level": "A2",
+      "de": "beschreiben",
+      "fr": "décrire",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-47",
+      "level": "A2",
+      "de": "wahrscheinlich",
+      "fr": "probablement",
+      "note": ""
+    },
+    {
+      "id": "seed-48",
+      "level": "A2",
+      "de": "die Reise",
+      "fr": "le voyage",
+      "note": ""
+    },
+    {
+      "id": "seed-49",
+      "level": "A2",
+      "de": "die Kleidung",
+      "fr": "les vêtements",
+      "note": ""
+    },
+    {
+      "id": "seed-50",
+      "level": "A2",
+      "de": "sich freuen",
+      "fr": "se réjouir",
+      "note": "verbe pronominal"
+    },
+    {
+      "id": "seed-51",
+      "level": "B1",
+      "de": "die Voraussetzung",
+      "fr": "la condition préalable",
+      "note": ""
+    },
+    {
+      "id": "seed-52",
+      "level": "B1",
+      "de": "die Herausforderung",
+      "fr": "le défi",
+      "note": ""
+    },
+    {
+      "id": "seed-53",
+      "level": "B1",
+      "de": "berücksichtigen",
+      "fr": "prendre en considération",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-54",
+      "level": "B1",
+      "de": "die Entscheidung",
+      "fr": "la décision",
+      "note": ""
+    },
+    {
+      "id": "seed-55",
+      "level": "B1",
+      "de": "zuverlässig",
+      "fr": "fiable",
+      "note": ""
+    },
+    {
+      "id": "seed-56",
+      "level": "B1",
+      "de": "vermeiden",
+      "fr": "éviter",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-57",
+      "level": "B1",
+      "de": "die Entwicklung",
+      "fr": "le développement",
+      "note": ""
+    },
+    {
+      "id": "seed-58",
+      "level": "B1",
+      "de": "die Umgebung",
+      "fr": "l’environnement / les alentours",
+      "note": ""
+    },
+    {
+      "id": "seed-59",
+      "level": "B1",
+      "de": "sich bemühen",
+      "fr": "faire des efforts",
+      "note": "verbe pronominal"
+    },
+    {
+      "id": "seed-60",
+      "level": "B1",
+      "de": "die Auswirkung",
+      "fr": "la conséquence / l’impact",
+      "note": ""
+    },
+    {
+      "id": "seed-61",
+      "level": "B1",
+      "de": "überzeugen",
+      "fr": "convaincre",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-62",
+      "level": "B1",
+      "de": "die Gelegenheit",
+      "fr": "l’occasion",
+      "note": ""
+    },
+    {
+      "id": "seed-63",
+      "level": "B1",
+      "de": "abhängig",
+      "fr": "dépendant",
+      "note": ""
+    },
+    {
+      "id": "seed-64",
+      "level": "B1",
+      "de": "die Mehrheit",
+      "fr": "la majorité",
+      "note": ""
+    },
+    {
+      "id": "seed-65",
+      "level": "B1",
+      "de": "stattfinden",
+      "fr": "avoir lieu",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-66",
+      "level": "B1",
+      "de": "die Unterkunft",
+      "fr": "l’hébergement",
+      "note": ""
+    },
+    {
+      "id": "seed-67",
+      "level": "B1",
+      "de": "der Zusammenhang",
+      "fr": "le lien / le contexte",
+      "note": ""
+    },
+    {
+      "id": "seed-68",
+      "level": "B1",
+      "de": "erreichen",
+      "fr": "atteindre",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-69",
+      "level": "B1",
+      "de": "die Meinung",
+      "fr": "l’opinion",
+      "note": ""
+    },
+    {
+      "id": "seed-70",
+      "level": "B1",
+      "de": "sich entwickeln",
+      "fr": "évoluer / se développer",
+      "note": ""
+    },
+    {
+      "id": "seed-71",
+      "level": "B2",
+      "de": "die Befürchtung",
+      "fr": "la crainte",
+      "note": ""
+    },
+    {
+      "id": "seed-72",
+      "level": "B2",
+      "de": "nachweisen",
+      "fr": "démontrer / prouver",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-73",
+      "level": "B2",
+      "de": "die Maßnahme",
+      "fr": "la mesure",
+      "note": ""
+    },
+    {
+      "id": "seed-74",
+      "level": "B2",
+      "de": "in Betracht ziehen",
+      "fr": "envisager",
+      "note": "expression"
+    },
+    {
+      "id": "seed-75",
+      "level": "B2",
+      "de": "die Fähigkeit",
+      "fr": "la capacité",
+      "note": ""
+    },
+    {
+      "id": "seed-76",
+      "level": "B2",
+      "de": "die Erkenntnis",
+      "fr": "le constat / la connaissance acquise",
+      "note": ""
+    },
+    {
+      "id": "seed-77",
+      "level": "B2",
+      "de": "gewährleisten",
+      "fr": "garantir / assurer",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-78",
+      "level": "B2",
+      "de": "die Zustimmung",
+      "fr": "l’approbation",
+      "note": ""
+    },
+    {
+      "id": "seed-79",
+      "level": "B2",
+      "de": "die Umsetzung",
+      "fr": "la mise en œuvre",
+      "note": ""
+    },
+    {
+      "id": "seed-80",
+      "level": "B2",
+      "de": "wesentlich",
+      "fr": "essentiel / considérable",
+      "note": ""
+    },
+    {
+      "id": "seed-81",
+      "level": "B2",
+      "de": "die Voraussetzung",
+      "fr": "le prérequis",
+      "note": ""
+    },
+    {
+      "id": "seed-82",
+      "level": "B2",
+      "de": "sich auseinandersetzen mit",
+      "fr": "se pencher sur / traiter",
+      "note": "expression"
+    },
+    {
+      "id": "seed-83",
+      "level": "B2",
+      "de": "die Schätzung",
+      "fr": "l’estimation",
+      "note": ""
+    },
+    {
+      "id": "seed-84",
+      "level": "B2",
+      "de": "beeinträchtigen",
+      "fr": "porter atteinte à / affecter",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-85",
+      "level": "B2",
+      "de": "die Stellungnahme",
+      "fr": "la prise de position",
+      "note": ""
+    },
+    {
+      "id": "seed-86",
+      "level": "B2",
+      "de": "hinsichtlich",
+      "fr": "en ce qui concerne",
+      "note": "préposition"
+    },
+    {
+      "id": "seed-87",
+      "level": "B2",
+      "de": "die Verpflichtung",
+      "fr": "l’obligation / l’engagement",
+      "note": ""
+    },
+    {
+      "id": "seed-88",
+      "level": "B2",
+      "de": "nachhaltig",
+      "fr": "durable",
+      "note": ""
+    },
+    {
+      "id": "seed-89",
+      "level": "B2",
+      "de": "die Wahrnehmung",
+      "fr": "la perception",
+      "note": ""
+    },
+    {
+      "id": "seed-90",
+      "level": "B2",
+      "de": "voraussetzen",
+      "fr": "présupposer / exiger",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-91",
+      "level": "C1",
+      "de": "die Abwägung",
+      "fr": "la mise en balance",
+      "note": ""
+    },
+    {
+      "id": "seed-92",
+      "level": "C1",
+      "de": "unumgänglich",
+      "fr": "incontournable / inévitable",
+      "note": ""
+    },
+    {
+      "id": "seed-93",
+      "level": "C1",
+      "de": "die Tragweite",
+      "fr": "la portée",
+      "note": ""
+    },
+    {
+      "id": "seed-94",
+      "level": "C1",
+      "de": "etwas in Frage stellen",
+      "fr": "remettre quelque chose en question",
+      "note": "expression"
+    },
+    {
+      "id": "seed-95",
+      "level": "C1",
+      "de": "die Gegebenheit",
+      "fr": "la donnée / la circonstance",
+      "note": ""
+    },
+    {
+      "id": "seed-96",
+      "level": "C1",
+      "de": "sich abzeichnen",
+      "fr": "se dessiner / se profiler",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-97",
+      "level": "C1",
+      "de": "die Befugnis",
+      "fr": "le pouvoir / la compétence",
+      "note": ""
+    },
+    {
+      "id": "seed-98",
+      "level": "C1",
+      "de": "hinfällig",
+      "fr": "caduc / sans objet",
+      "note": ""
+    },
+    {
+      "id": "seed-99",
+      "level": "C1",
+      "de": "die Übereinstimmung",
+      "fr": "la concordance",
+      "note": ""
+    },
+    {
+      "id": "seed-100",
+      "level": "C1",
+      "de": "veranschaulichen",
+      "fr": "illustrer",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-101",
+      "level": "C1",
+      "de": "die Nachhaltigkeit",
+      "fr": "la durabilité",
+      "note": ""
+    },
+    {
+      "id": "seed-102",
+      "level": "C1",
+      "de": "maßgeblich",
+      "fr": "déterminant / essentiel",
+      "note": ""
+    },
+    {
+      "id": "seed-103",
+      "level": "C1",
+      "de": "die Diskrepanz",
+      "fr": "la disparité / l’écart",
+      "note": ""
+    },
+    {
+      "id": "seed-104",
+      "level": "C1",
+      "de": "sich erschließen",
+      "fr": "se révéler / se déduire",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-105",
+      "level": "C1",
+      "de": "die Einschränkung",
+      "fr": "la restriction",
+      "note": ""
+    },
+    {
+      "id": "seed-106",
+      "level": "C1",
+      "de": "folglich",
+      "fr": "par conséquent",
+      "note": ""
+    },
+    {
+      "id": "seed-107",
+      "level": "C1",
+      "de": "die Herangehensweise",
+      "fr": "l’approche / la méthode",
+      "note": ""
+    },
+    {
+      "id": "seed-108",
+      "level": "C1",
+      "de": "hervorheben",
+      "fr": "mettre en évidence",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-109",
+      "level": "C1",
+      "de": "die Voraussetzung",
+      "fr": "la condition",
+      "note": ""
+    },
+    {
+      "id": "seed-110",
+      "level": "C1",
+      "de": "der Sachverhalt",
+      "fr": "les faits / la situation de fait",
+      "note": ""
+    },
+    {
+      "id": "seed-111",
+      "level": "C2",
+      "de": "die Unzulänglichkeit",
+      "fr": "l’insuffisance / la lacune",
+      "note": ""
+    },
+    {
+      "id": "seed-112",
+      "level": "C2",
+      "de": "unverhohlen",
+      "fr": "sans détour / ouvertement",
+      "note": ""
+    },
+    {
+      "id": "seed-113",
+      "level": "C2",
+      "de": "die Implikation",
+      "fr": "l’implication",
+      "note": ""
+    },
+    {
+      "id": "seed-114",
+      "level": "C2",
+      "de": "sich etwas vergegenwärtigen",
+      "fr": "prendre pleinement conscience de quelque chose",
+      "note": "expression"
+    },
+    {
+      "id": "seed-115",
+      "level": "C2",
+      "de": "die Erörterung",
+      "fr": "la discussion approfondie",
+      "note": ""
+    },
+    {
+      "id": "seed-116",
+      "level": "C2",
+      "de": "gewieft",
+      "fr": "roublard / astucieux",
+      "note": ""
+    },
+    {
+      "id": "seed-117",
+      "level": "C2",
+      "de": "die Zwangsläufigkeit",
+      "fr": "le caractère inéluctable",
+      "note": ""
+    },
+    {
+      "id": "seed-118",
+      "level": "C2",
+      "de": "arglos",
+      "fr": "sans méfiance / candide",
+      "note": ""
+    },
+    {
+      "id": "seed-119",
+      "level": "C2",
+      "de": "die Verflechtung",
+      "fr": "l’imbrication",
+      "note": ""
+    },
+    {
+      "id": "seed-120",
+      "level": "C2",
+      "de": "konterkarieren",
+      "fr": "contrecarrer",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-121",
+      "level": "C2",
+      "de": "die Prägnanz",
+      "fr": "la concision / la force d’expression",
+      "note": ""
+    },
+    {
+      "id": "seed-122",
+      "level": "C2",
+      "de": "unverzüglich",
+      "fr": "sans délai / immédiatement",
+      "note": ""
+    },
+    {
+      "id": "seed-123",
+      "level": "C2",
+      "de": "die Gemengelage",
+      "fr": "la situation complexe / l’enchevêtrement",
+      "note": ""
+    },
+    {
+      "id": "seed-124",
+      "level": "C2",
+      "de": "die Verwerflichkeit",
+      "fr": "le caractère répréhensible",
+      "note": ""
+    },
+    {
+      "id": "seed-125",
+      "level": "C2",
+      "de": "sich bewahrheiten",
+      "fr": "se vérifier / se révéler exact",
+      "note": "verbe"
+    },
+    {
+      "id": "seed-126",
+      "level": "C2",
+      "de": "die Beschaffenheit",
+      "fr": "la nature / la constitution",
+      "note": ""
+    },
+    {
+      "id": "seed-127",
+      "level": "C2",
+      "de": "beileibe nicht",
+      "fr": "certainement pas / loin de là",
+      "note": "expression"
+    },
+    {
+      "id": "seed-128",
+      "level": "C2",
+      "de": "die Zwiespältigkeit",
+      "fr": "l’ambivalence",
+      "note": ""
+    },
+    {
+      "id": "seed-129",
+      "level": "C2",
+      "de": "der Trugschluss",
+      "fr": "le faux raisonnement",
+      "note": ""
+    },
+    {
+      "id": "seed-130",
+      "level": "C2",
+      "de": "die Unwägbarkeit",
+      "fr": "l’impondérable",
+      "note": ""
+    }
+  ]
+}

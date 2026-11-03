@@ -1,0 +1,19 @@
+{
+  "name": "Vokabel Trainer",
+  "short_name": "Vokabel",
+  "description": "Réviser le vocabulaire allemand-français hors ligne.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#4338ca",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

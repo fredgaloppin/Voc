@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#4338ca">
+  <meta name="description" content="Application personnelle de révision du vocabulaire allemand et français, utilisable hors ligne.">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./css/app.css">
+  <title>Vokabel Trainer</title>
+</head>
+<body class="min-h-screen bg-slate-50 text-slate-900">
+  <header class="bg-indigo-700 text-white shadow-md">
+    <div class="mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
+      <div>
+        <h1 class="text-xl font-bold tracking-tight">Vokabel Trainer</h1>
+        <p class="text-sm text-indigo-100">Allemand · Français</p>
+      </div>
+      <span id="offline-indicator" class="rounded-full bg-indigo-600 px-3 py-1 text-xs font-semibold">Hors ligne prêt</span>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-5xl space-y-5 px-4 py-5 pb-12">
+    <section class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+      <div class="mb-3 flex items-center justify-between gap-3">
+        <h2 class="font-semibold">Préparer une séance</h2>
+        <button id="install-button" class="hidden rounded-lg bg-indigo-100 px-3 py-2 text-sm font-semibold text-indigo-800">Installer l’application</button>
+      </div>
+      <div class="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+        <label class="block text-sm font-medium">Niveau
+          <select id="level-select" class="field mt-1">
+            <option value="A1">A1</option><option value="A2">A2</option>
+            <option value="B1">B1</option><option value="B2">B2</option>
+            <option value="C1">C1</option><option value="C2">C2</option>
+            <option value="ALL">Tous les niveaux</option>
+          </select>
+        </label>
+        <label class="block text-sm font-medium">Sens
+          <select id="direction-select" class="field mt-1">
+            <option value="de-fr">Allemand → Français</option>
+            <option value="fr-de">Français → Allemand</option>
+          </select>
+        </label>
+        <label class="block text-sm font-medium">Ordre des mots
+          <select id="order-select" class="field mt-1">
+            <option value="random">Aléatoire</option>
+            <option value="list">Ordre de la liste</option>
+          </select>
+        </label>
+        <label class="block text-sm font-medium">Taille de la série
+          <select id="size-select" class="field mt-1">
+            <option value="20">20 mots</option>
+            <option value="40">40 mots</option>
+            <option value="60">60 mots</option>
+          </select>
+        </label>
+      </div>
+      <div class="mt-4 flex flex-wrap gap-2">
+        <button id="start-button" class="btn-primary">Commencer une série</button>
+        <button id="resume-button" class="btn-secondary">Reprendre la séance</button>
+        <button id="reset-button" class="btn-quiet">Réinitialiser la séance</button>
+      </div>
+      <p class="mt-3 text-xs leading-relaxed text-slate-500">Une série est constituée de paquets de 20 mots. Si le niveau sélectionné contient moins de mots que demandé, l’application utilise tous les mots disponibles sans doublons.</p>
+    </section>
+
+    <section id="study-panel" class="hidden rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-6">
+      <div class="flex flex-wrap items-start justify-between gap-3">
+        <div>
+          <p id="phase-label" class="text-sm font-semibold text-indigo-700">Apprentissage</p>
+          <h2 id="study-title" class="mt-1 text-xl font-bold">Groupe 1 · mots 1 à 5</h2>
+          <p id="study-subtitle" class="mt-1 text-sm text-slate-500"></p>
+        </div>
+        <span id="counter" class="rounded-full bg-slate-100 px-3 py-1 text-sm font-semibold tabular-nums">1 / 5</span>
+      </div>
+      <div class="mt-5 h-2 overflow-hidden rounded-full bg-slate-100">
+        <div id="progress-bar" class="h-full rounded-full bg-indigo-600 transition-all" style="width:0%"></div>
+      </div>
+      <div class="my-7 rounded-2xl bg-indigo-50 px-5 py-10 text-center">
+        <p id="prompt-label" class="text-xs font-semibold uppercase tracking-widest text-indigo-500">Mot à traduire</p>
+        <p id="prompt-word" class="mt-3 break-words text-3xl font-bold text-slate-900 sm:text-4xl">der Apfel</p>
+        <p id="prompt-hint" class="mt-2 text-sm text-slate-500">Essaie de retrouver la traduction.</p>
+        <div id="answer-area" class="mt-6 hidden border-t border-indigo-100 pt-5">
+          <p class="text-xs font-semibold uppercase tracking-widest text-indigo-500">Traduction</p>
+          <p id="answer-word" class="mt-2 break-words text-2xl font-semibold text-indigo-900"></p>
+          <p id="answer-note" class="mt-2 text-sm text-slate-600"></p>
+        </div>
+      </div>
+      <div class="flex flex-wrap items-center justify-center gap-2">
+        <button id="prev-button" class="btn-secondary" aria-label="Mot précédent">← Précédent</button>
+        <button id="reveal-button" class="btn-primary min-w-40">Afficher la réponse</button>
+        <button id="next-button" class="btn-secondary hidden min-w-40">Suivant →</button>
+      </div>
+      <div id="assessment-controls" class="mt-3 hidden flex-wrap justify-center gap-2">
+        <button id="bad-button" class="btn-bad min-w-32">Pas bon</button>
+        <button id="good-button" class="btn-good min-w-32">Bon · retirer</button>
+      </div>
+      <p class="mt-4 text-center text-xs text-slate-500">« Bon » retire le mot de cette étape. « Pas bon » le garde dans la boucle de révision. Tu peux revenir aux cartes avec les flèches.</p>
+    </section>
+
+    <section id="complete-panel" class="hidden rounded-2xl border border-emerald-200 bg-emerald-50 p-6 text-center">
+      <div class="text-3xl">🎉</div>
+      <h2 class="mt-2 text-xl font-bold text-emerald-900">Série terminée !</h2>
+      <p id="complete-message" class="mt-2 text-sm text-emerald-800"></p>
+      <button id="new-series-button" class="btn-primary mt-4">Créer une nouvelle série</button>
+    </section>
+
+    <section class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+      <div class="flex flex-wrap items-center justify-between gap-3">
+        <div>
+          <h2 class="font-semibold">Mes listes de vocabulaire</h2>
+          <p class="mt-1 text-sm text-slate-500">Ajoute tes propres mots ou modifie les listes fournies.</p>
+        </div>
+        <div class="flex flex-wrap gap-2">
+          <button id="export-button" class="btn-secondary">Exporter JSON</button>
+          <button id="import-button" class="btn-secondary">Importer JSON</button>
+          <input id="import-file" type="file" accept=".json,application/json" class="hidden">
+        </div>
+      </div>
+      <form id="word-form" class="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-5">
+        <select id="word-level" class="field" aria-label="Niveau">
+          <option>A1</option><option>A2</option><option>B1</option><option>B2</option><option>C1</option><option>C2</option>
+        </select>
+        <input id="word-german" class="field" placeholder="Mot allemand" required>
+        <input id="word-french" class="field" placeholder="Traduction française" required>
+        <input id="word-note" class="field" placeholder="Note (facultatif)">
+        <button class="btn-primary" type="submit">Ajouter le mot</button>
+      </form>
+      <div class="mt-4 rounded-xl bg-indigo-50 p-3">
+        <div class="flex flex-wrap items-center justify-between gap-2">
+          <div>
+            <p class="text-sm font-semibold text-indigo-900">Composer une série personnalisée de 20 mots</p>
+            <p id="selection-count" class="mt-1 text-xs text-indigo-700">0 / 20 mots sélectionnés</p>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <button id="clear-selection-button" class="btn-secondary">Effacer la sélection</button>
+            <button id="start-selected-button" class="btn-primary" disabled>Étudier ces 20 mots</button>
+          </div>
+        </div>
+        <p class="mt-2 text-xs text-indigo-700">Coche précisément 20 mots dans le tableau ci-dessous. La sélection peut mélanger plusieurs niveaux.</p>
+      </div>
+      <div class="mt-4 flex flex-wrap items-center justify-between gap-2">
+        <label class="text-sm font-medium">Afficher
+          <select id="list-filter" class="field ml-2 inline-block w-auto">
+            <option value="ALL">Tous les niveaux</option>
+            <option>A1</option><option>A2</option><option>B1</option><option>B2</option><option>C1</option><option>C2</option>
+          </select>
+        </label>
+        <span id="word-count" class="text-sm text-slate-500"></span>
+      </div>
+      <div class="mt-3 overflow-x-auto">
+        <table class="w-full min-w-[520px] text-left text-sm">
+          <thead><tr class="border-b border-slate-200 text-xs uppercase tracking-wide text-slate-500"><th class="py-2 pr-3">Choix</th><th class="py-2 pr-3">Niveau</th><th class="py-2 pr-3">Allemand</th><th class="py-2 pr-3">Français</th><th class="py-2 pr-3">Note</th><th class="py-2">Action</th></tr></thead>
+          <tbody id="word-table"></tbody>
+        </table>
+      </div>
+    </section>
+    <footer class="pb-3 text-center text-xs text-slate-400">Les données restent sur cet appareil. Pense à exporter régulièrement tes listes pour en garder une copie.</footer>
+  </main>
+  <script src="./js/vocabulary.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
