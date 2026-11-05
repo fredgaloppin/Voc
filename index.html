@@ -15,7 +15,7 @@
     <div class="mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
       <div>
         <h1 class="text-xl font-bold tracking-tight">Vokabel Trainer</h1>
-        <p class="text-sm text-indigo-100">Allemand · Français</p>
+        <p class="text-sm text-indigo-100">Allemand · Français · v1.2</p>
       </div>
       <span id="offline-indicator" class="rounded-full bg-indigo-600 px-3 py-1 text-xs font-semibold">Hors ligne prêt</span>
     </div>
@@ -45,6 +45,7 @@
         <label class="block text-sm font-medium">Ordre des mots
           <select id="order-select" class="field mt-1">
             <option value="random">Aléatoire</option>
+            <option value="least">Les moins révisés (20 mots)</option>
             <option value="list">Ordre de la liste</option>
           </select>
         </label>
@@ -114,14 +115,19 @@
         <div class="flex flex-wrap gap-2">
           <button id="export-button" class="btn-secondary">Exporter JSON</button>
           <button id="import-button" class="btn-secondary">Importer JSON</button>
+          <select id="import-mode" class="field" aria-label="Mode d’importation">
+            <option value="merge">Ajouter / fusionner</option>
+            <option value="replace">Remplacer la liste</option>
+          </select>
           <input id="import-file" type="file" accept=".json,application/json" class="hidden">
         </div>
       </div>
-      <form id="word-form" class="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-5">
+      <form id="word-form" class="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2">
         <select id="word-level" class="field" aria-label="Niveau">
           <option>A1</option><option>A2</option><option>B1</option><option>B2</option><option>C1</option><option>C2</option>
         </select>
         <input id="word-german" class="field" placeholder="Mot allemand" required>
+        <input id="word-plural" class="field" placeholder="Pluriel allemand (facultatif)" aria-label="Pluriel allemand sans article">
         <input id="word-french" class="field" placeholder="Traduction française" required>
         <input id="word-note" class="field" placeholder="Note (facultatif)">
         <button class="btn-primary" type="submit">Ajouter le mot</button>
@@ -130,14 +136,14 @@
         <div class="flex flex-wrap items-center justify-between gap-2">
           <div>
             <p class="text-sm font-semibold text-indigo-900">Composer une série personnalisée de 20 mots</p>
-            <p id="selection-count" class="mt-1 text-xs text-indigo-700">0 / 20 mots sélectionnés</p>
+            <p id="selection-count" class="mt-1 text-xs text-indigo-700">0 mot(s) sélectionné(s) · 20 requis pour commencer</p>
           </div>
           <div class="flex flex-wrap gap-2">
             <button id="clear-selection-button" class="btn-secondary">Effacer la sélection</button>
             <button id="start-selected-button" class="btn-primary" disabled>Étudier ces 20 mots</button>
           </div>
         </div>
-        <p class="mt-2 text-xs text-indigo-700">Coche précisément 20 mots dans le tableau ci-dessous. La sélection peut mélanger plusieurs niveaux.</p>
+        <p class="mt-2 text-xs text-indigo-700">La case d’en-tête agit sur tous les mots du filtre. Pour lancer une série personnalisée, garde exactement 20 mots cochés, tous niveaux confondus.</p>
       </div>
       <div class="mt-4 flex flex-wrap items-center justify-between gap-2">
         <label class="text-sm font-medium">Afficher
@@ -150,7 +156,11 @@
       </div>
       <div class="mt-3 overflow-x-auto">
         <table class="w-full min-w-[520px] text-left text-sm">
-          <thead><tr class="border-b border-slate-200 text-xs uppercase tracking-wide text-slate-500"><th class="py-2 pr-3">Choix</th><th class="py-2 pr-3">Niveau</th><th class="py-2 pr-3">Allemand</th><th class="py-2 pr-3">Français</th><th class="py-2 pr-3">Note</th><th class="py-2">Action</th></tr></thead>
+          <thead><tr class="border-b border-slate-200 text-xs uppercase tracking-wide text-slate-500">
+            <th class="py-2 pr-3"><label><input type="checkbox" id="select-all" aria-label="Sélectionner tous les mots affichés"></label>
+            </th><th class="py-2 pr-3">Niveau</th><th class="py-2 pr-3">Allemand</th>
+            <th class="py-2 pr-3">Français</th><th class="py-2 pr-3">Note</th>
+            <th class="py-2 pr-3">Révisions</th><th class="py-2">Action</th></tr></thead>
           <tbody id="word-table"></tbody>
         </table>
       </div>

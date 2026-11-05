@@ -56,14 +56,14 @@ Pour une série de 20 mots :
 5. apprentissage des mots 16 à 20 ;
 6. révision des mots 1 à 20.
 
-La réponse s'affiche uniquement quand tu appuies sur « Afficher la réponse ». Tu avances ensuite manuellement. Aucun score ni contrôle de connaissance n'est effectué.
+La réponse s’affiche quand tu appuies sur « Afficher la réponse ». Tu évalues ensuite ta réponse avec « Bon » ou « Pas bon », ou tu avances manuellement.
 
 Pour une série de 40 ou 60 mots, le cycle continue en groupes de cinq avec révisions cumulatives.
 
 ## Données
 - Les modifications restent dans `localStorage` du navigateur.
 - Exporter régulièrement un fichier JSON comme sauvegarde.
-- Importer un fichier JSON remplace la liste locale.
+- Importer un fichier JSON permet d’ajouter des mots ou de remplacer la liste locale.
 
 
 ## Nouveautés de la version 1.1
@@ -73,3 +73,15 @@ Pour une série de 40 ou 60 mots, le cycle continue en groupes de cinq avec rév
 - « Pas bon » conserve le mot dans la boucle de révision.
 - La progression d'une étape continue jusqu'à ce que tous ses mots soient marqués « Bon ».
 - Sélection personnalisée : coche exactement 20 mots dans le tableau, éventuellement de niveaux différents, puis clique sur « Étudier ces 20 mots ».
+
+## Nouveautés de la version 1.2
+
+- La case « Choix » dans l’en-tête coche ou décoche tous les mots affichés par le filtre. La sélection peut dépasser 20 mots, puis être ramenée à exactement 20 pour démarrer une série personnalisée.
+- Après révélation, « Bon » et « Pas bon » ajoutent chacun une révision. Afficher une réponse ou passer à la suivante ne modifie pas le compteur. Les sauvegardes anciennes sans compteur démarrent à zéro.
+- Dans « Ordre des mots », « Les moins révisés » sélectionne jusqu’à 20 mots du niveau demandé, du plus petit au plus grand compteur. À compteur égal, le choix est aléatoire.
+- Le pluriel des noms s’affiche à côté du singulier lorsqu’il est renseigné. Saisis la forme entière sans article dans le champ « Pluriel allemand ».
+- Pour cumuler les fichiers A1 à C2, choisis « Ajouter / fusionner » avant d’importer chaque fichier. Deux entrées de même niveau, avec le même mot et la même traduction, sont fusionnées. Le compteur le plus élevé est conservé. « Remplacer la liste » permet de restaurer exactement le contenu d’un export et abandonne la séance en cours.
+
+Les six listes par niveau sont des sélections pédagogiques allemand–français à classement indicatif. L’icône SVG fournie remplace l’icône absente des fichiers transmis.
+
+Pour mettre à jour une installation existante, garde la même adresse et le même port pour conserver les données du navigateur. Après la mise à jour, recharge la page pour afficher la nouvelle version.

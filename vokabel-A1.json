@@ -1,0 +1,1364 @@
+{
+  "version": "1.2",
+  "words": [
+    {
+      "id": "seed-1",
+      "level": "A1",
+      "de": "das Haus",
+      "fr": "la maison",
+      "note": "",
+      "plural": "Häuser",
+      "revisions": 0
+    },
+    {
+      "id": "seed-2",
+      "level": "A1",
+      "de": "der Apfel",
+      "fr": "la pomme",
+      "note": "",
+      "plural": "Äpfel",
+      "revisions": 0
+    },
+    {
+      "id": "seed-3",
+      "level": "A1",
+      "de": "das Wasser",
+      "fr": "l’eau",
+      "note": "Généralement au singulier.",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "seed-4",
+      "level": "A1",
+      "de": "die Familie",
+      "fr": "la famille",
+      "note": "",
+      "plural": "Familien",
+      "revisions": 0
+    },
+    {
+      "id": "seed-5",
+      "level": "A1",
+      "de": "der Freund",
+      "fr": "l’ami",
+      "note": "",
+      "plural": "Freunde",
+      "revisions": 0
+    },
+    {
+      "id": "seed-6",
+      "level": "A1",
+      "de": "die Schule",
+      "fr": "l’école",
+      "note": "",
+      "plural": "Schulen",
+      "revisions": 0
+    },
+    {
+      "id": "seed-7",
+      "level": "A1",
+      "de": "essen",
+      "fr": "manger",
+      "note": "verbe",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "seed-8",
+      "level": "A1",
+      "de": "trinken",
+      "fr": "boire",
+      "note": "verbe",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "seed-9",
+      "level": "A1",
+      "de": "gehen",
+      "fr": "aller",
+      "note": "verbe",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "seed-10",
+      "level": "A1",
+      "de": "kommen",
+      "fr": "venir",
+      "note": "verbe",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "seed-11",
+      "level": "A1",
+      "de": "klein",
+      "fr": "petit",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "seed-12",
+      "level": "A1",
+      "de": "groß",
+      "fr": "grand",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "seed-13",
+      "level": "A1",
+      "de": "heute",
+      "fr": "aujourd’hui",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "seed-14",
+      "level": "A1",
+      "de": "morgen",
+      "fr": "demain",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "seed-15",
+      "level": "A1",
+      "de": "das Buch",
+      "fr": "le livre",
+      "note": "",
+      "plural": "Bücher",
+      "revisions": 0
+    },
+    {
+      "id": "seed-16",
+      "level": "A1",
+      "de": "die Stadt",
+      "fr": "la ville",
+      "note": "",
+      "plural": "Städte",
+      "revisions": 0
+    },
+    {
+      "id": "seed-17",
+      "level": "A1",
+      "de": "der Tisch",
+      "fr": "la table",
+      "note": "",
+      "plural": "Tische",
+      "revisions": 0
+    },
+    {
+      "id": "seed-18",
+      "level": "A1",
+      "de": "die Tür",
+      "fr": "la porte",
+      "note": "",
+      "plural": "Türen",
+      "revisions": 0
+    },
+    {
+      "id": "seed-19",
+      "level": "A1",
+      "de": "schön",
+      "fr": "beau / belle",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "seed-20",
+      "level": "A1",
+      "de": "kaufen",
+      "fr": "acheter",
+      "note": "verbe",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "seed-21",
+      "level": "A1",
+      "de": "arbeiten",
+      "fr": "travailler",
+      "note": "verbe",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "seed-22",
+      "level": "A1",
+      "de": "sprechen",
+      "fr": "parler",
+      "note": "verbe",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "seed-23",
+      "level": "A1",
+      "de": "das Kind",
+      "fr": "l’enfant",
+      "note": "",
+      "plural": "Kinder",
+      "revisions": 0
+    },
+    {
+      "id": "seed-24",
+      "level": "A1",
+      "de": "die Zeit",
+      "fr": "le temps",
+      "note": "",
+      "plural": "Zeiten",
+      "revisions": 0
+    },
+    {
+      "id": "seed-25",
+      "level": "A1",
+      "de": "gut",
+      "fr": "bon / bien",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "seed-26",
+      "level": "A1",
+      "de": "müde",
+      "fr": "fatigué",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "seed-27",
+      "level": "A1",
+      "de": "der Morgen",
+      "fr": "le matin",
+      "note": "",
+      "plural": "Morgen",
+      "revisions": 0
+    },
+    {
+      "id": "seed-28",
+      "level": "A1",
+      "de": "die Frage",
+      "fr": "la question",
+      "note": "",
+      "plural": "Fragen",
+      "revisions": 0
+    },
+    {
+      "id": "seed-29",
+      "level": "A1",
+      "de": "antworten",
+      "fr": "répondre",
+      "note": "verbe",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "seed-30",
+      "level": "A1",
+      "de": "das Geld",
+      "fr": "l’argent",
+      "note": "",
+      "plural": "Gelder",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-001",
+      "level": "A1",
+      "de": "der Name",
+      "fr": "le nom",
+      "note": "",
+      "plural": "Namen",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-002",
+      "level": "A1",
+      "de": "der Vorname",
+      "fr": "le prénom",
+      "note": "",
+      "plural": "Vornamen",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-003",
+      "level": "A1",
+      "de": "die Adresse",
+      "fr": "l’adresse",
+      "note": "",
+      "plural": "Adressen",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-004",
+      "level": "A1",
+      "de": "die Straße",
+      "fr": "la rue",
+      "note": "",
+      "plural": "Straßen",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-005",
+      "level": "A1",
+      "de": "die Nummer",
+      "fr": "le numéro",
+      "note": "",
+      "plural": "Nummern",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-006",
+      "level": "A1",
+      "de": "das Land",
+      "fr": "le pays",
+      "note": "",
+      "plural": "Länder",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-007",
+      "level": "A1",
+      "de": "die Sprache",
+      "fr": "la langue",
+      "note": "",
+      "plural": "Sprachen",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-008",
+      "level": "A1",
+      "de": "die Mutter",
+      "fr": "la mère",
+      "note": "",
+      "plural": "Mütter",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-009",
+      "level": "A1",
+      "de": "der Vater",
+      "fr": "le père",
+      "note": "",
+      "plural": "Väter",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-010",
+      "level": "A1",
+      "de": "der Bruder",
+      "fr": "le frère",
+      "note": "",
+      "plural": "Brüder",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-011",
+      "level": "A1",
+      "de": "die Schwester",
+      "fr": "la sœur",
+      "note": "",
+      "plural": "Schwestern",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-012",
+      "level": "A1",
+      "de": "das Baby",
+      "fr": "le bébé",
+      "note": "",
+      "plural": "Babys",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-013",
+      "level": "A1",
+      "de": "die Eltern",
+      "fr": "les parents",
+      "note": "Nom pluriel",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-014",
+      "level": "A1",
+      "de": "der Mann",
+      "fr": "l’homme",
+      "note": "",
+      "plural": "Männer",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-015",
+      "level": "A1",
+      "de": "die Frau",
+      "fr": "la femme",
+      "note": "",
+      "plural": "Frauen",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-016",
+      "level": "A1",
+      "de": "der Hund",
+      "fr": "le chien",
+      "note": "",
+      "plural": "Hunde",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-017",
+      "level": "A1",
+      "de": "die Katze",
+      "fr": "le chat",
+      "note": "",
+      "plural": "Katzen",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-018",
+      "level": "A1",
+      "de": "die Wohnung",
+      "fr": "l’appartement",
+      "note": "",
+      "plural": "Wohnungen",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-019",
+      "level": "A1",
+      "de": "das Zimmer",
+      "fr": "la chambre / la pièce",
+      "note": "",
+      "plural": "Zimmer",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-020",
+      "level": "A1",
+      "de": "die Küche",
+      "fr": "la cuisine",
+      "note": "",
+      "plural": "Küchen",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-021",
+      "level": "A1",
+      "de": "das Bad",
+      "fr": "la salle de bains",
+      "note": "",
+      "plural": "Bäder",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-022",
+      "level": "A1",
+      "de": "das Fenster",
+      "fr": "la fenêtre",
+      "note": "",
+      "plural": "Fenster",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-023",
+      "level": "A1",
+      "de": "das Bett",
+      "fr": "le lit",
+      "note": "",
+      "plural": "Betten",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-024",
+      "level": "A1",
+      "de": "der Stuhl",
+      "fr": "la chaise",
+      "note": "",
+      "plural": "Stühle",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-025",
+      "level": "A1",
+      "de": "der Schlüssel",
+      "fr": "la clé",
+      "note": "",
+      "plural": "Schlüssel",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-026",
+      "level": "A1",
+      "de": "die Tasche",
+      "fr": "le sac",
+      "note": "",
+      "plural": "Taschen",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-027",
+      "level": "A1",
+      "de": "das Handy",
+      "fr": "le téléphone portable",
+      "note": "",
+      "plural": "Handys",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-028",
+      "level": "A1",
+      "de": "der Computer",
+      "fr": "l’ordinateur",
+      "note": "",
+      "plural": "Computer",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-029",
+      "level": "A1",
+      "de": "der Stift",
+      "fr": "le stylo",
+      "note": "",
+      "plural": "Stifte",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-030",
+      "level": "A1",
+      "de": "das Heft",
+      "fr": "le cahier",
+      "note": "",
+      "plural": "Hefte",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-031",
+      "level": "A1",
+      "de": "das Bild",
+      "fr": "l’image / le tableau",
+      "note": "",
+      "plural": "Bilder",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-032",
+      "level": "A1",
+      "de": "die Uhr",
+      "fr": "la montre / l’horloge",
+      "note": "",
+      "plural": "Uhren",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-033",
+      "level": "A1",
+      "de": "das Brot",
+      "fr": "le pain",
+      "note": "",
+      "plural": "Brote",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-034",
+      "level": "A1",
+      "de": "die Milch",
+      "fr": "le lait",
+      "note": "Généralement au singulier",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-035",
+      "level": "A1",
+      "de": "das Ei",
+      "fr": "l’œuf",
+      "note": "",
+      "plural": "Eier",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-036",
+      "level": "A1",
+      "de": "der Käse",
+      "fr": "le fromage",
+      "note": "",
+      "plural": "Käse",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-037",
+      "level": "A1",
+      "de": "der Fisch",
+      "fr": "le poisson",
+      "note": "",
+      "plural": "Fische",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-038",
+      "level": "A1",
+      "de": "die Kartoffel",
+      "fr": "la pomme de terre",
+      "note": "",
+      "plural": "Kartoffeln",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-039",
+      "level": "A1",
+      "de": "die Banane",
+      "fr": "la banane",
+      "note": "",
+      "plural": "Bananen",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-040",
+      "level": "A1",
+      "de": "die Tomate",
+      "fr": "la tomate",
+      "note": "",
+      "plural": "Tomaten",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-041",
+      "level": "A1",
+      "de": "der Kaffee",
+      "fr": "le café",
+      "note": "",
+      "plural": "Kaffees",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-042",
+      "level": "A1",
+      "de": "der Tee",
+      "fr": "le thé",
+      "note": "",
+      "plural": "Tees",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-043",
+      "level": "A1",
+      "de": "der Saft",
+      "fr": "le jus",
+      "note": "",
+      "plural": "Säfte",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-044",
+      "level": "A1",
+      "de": "die Flasche",
+      "fr": "la bouteille",
+      "note": "",
+      "plural": "Flaschen",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-045",
+      "level": "A1",
+      "de": "das Glas",
+      "fr": "le verre",
+      "note": "",
+      "plural": "Gläser",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-046",
+      "level": "A1",
+      "de": "der Teller",
+      "fr": "l’assiette",
+      "note": "",
+      "plural": "Teller",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-047",
+      "level": "A1",
+      "de": "das Messer",
+      "fr": "le couteau",
+      "note": "",
+      "plural": "Messer",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-048",
+      "level": "A1",
+      "de": "die Gabel",
+      "fr": "la fourchette",
+      "note": "",
+      "plural": "Gabeln",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-049",
+      "level": "A1",
+      "de": "der Löffel",
+      "fr": "la cuillère",
+      "note": "",
+      "plural": "Löffel",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-050",
+      "level": "A1",
+      "de": "der Supermarkt",
+      "fr": "le supermarché",
+      "note": "",
+      "plural": "Supermärkte",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-051",
+      "level": "A1",
+      "de": "der Laden",
+      "fr": "le magasin",
+      "note": "",
+      "plural": "Läden",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-052",
+      "level": "A1",
+      "de": "der Preis",
+      "fr": "le prix",
+      "note": "",
+      "plural": "Preise",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-053",
+      "level": "A1",
+      "de": "der Euro",
+      "fr": "l’euro",
+      "note": "Après un nombre, on dit généralement zwei Euro.",
+      "plural": "Euros",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-054",
+      "level": "A1",
+      "de": "der Bahnhof",
+      "fr": "la gare",
+      "note": "",
+      "plural": "Bahnhöfe",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-055",
+      "level": "A1",
+      "de": "der Bus",
+      "fr": "le bus",
+      "note": "",
+      "plural": "Busse",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-056",
+      "level": "A1",
+      "de": "der Zug",
+      "fr": "le train",
+      "note": "",
+      "plural": "Züge",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-057",
+      "level": "A1",
+      "de": "das Auto",
+      "fr": "la voiture",
+      "note": "",
+      "plural": "Autos",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-058",
+      "level": "A1",
+      "de": "das Fahrrad",
+      "fr": "le vélo",
+      "note": "",
+      "plural": "Fahrräder",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-059",
+      "level": "A1",
+      "de": "die Haltestelle",
+      "fr": "l’arrêt",
+      "note": "",
+      "plural": "Haltestellen",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-060",
+      "level": "A1",
+      "de": "das Ticket",
+      "fr": "le billet",
+      "note": "",
+      "plural": "Tickets",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-061",
+      "level": "A1",
+      "de": "der Flughafen",
+      "fr": "l’aéroport",
+      "note": "",
+      "plural": "Flughäfen",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-062",
+      "level": "A1",
+      "de": "das Hotel",
+      "fr": "l’hôtel",
+      "note": "",
+      "plural": "Hotels",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-063",
+      "level": "A1",
+      "de": "der Park",
+      "fr": "le parc",
+      "note": "",
+      "plural": "Parks",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-064",
+      "level": "A1",
+      "de": "der Tag",
+      "fr": "le jour",
+      "note": "",
+      "plural": "Tage",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-065",
+      "level": "A1",
+      "de": "die Woche",
+      "fr": "la semaine",
+      "note": "",
+      "plural": "Wochen",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-066",
+      "level": "A1",
+      "de": "der Monat",
+      "fr": "le mois",
+      "note": "",
+      "plural": "Monate",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-067",
+      "level": "A1",
+      "de": "das Jahr",
+      "fr": "l’année",
+      "note": "",
+      "plural": "Jahre",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-068",
+      "level": "A1",
+      "de": "der Abend",
+      "fr": "le soir",
+      "note": "",
+      "plural": "Abende",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-069",
+      "level": "A1",
+      "de": "die Nacht",
+      "fr": "la nuit",
+      "note": "",
+      "plural": "Nächte",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-070",
+      "level": "A1",
+      "de": "die Stunde",
+      "fr": "l’heure (durée)",
+      "note": "",
+      "plural": "Stunden",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-071",
+      "level": "A1",
+      "de": "die Minute",
+      "fr": "la minute",
+      "note": "",
+      "plural": "Minuten",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-072",
+      "level": "A1",
+      "de": "heißen",
+      "fr": "s’appeler",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-073",
+      "level": "A1",
+      "de": "wohnen",
+      "fr": "habiter",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-074",
+      "level": "A1",
+      "de": "sein",
+      "fr": "être",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-075",
+      "level": "A1",
+      "de": "haben",
+      "fr": "avoir",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-076",
+      "level": "A1",
+      "de": "brauchen",
+      "fr": "avoir besoin de",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-077",
+      "level": "A1",
+      "de": "möchten",
+      "fr": "voudrais / voudrait",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-078",
+      "level": "A1",
+      "de": "können",
+      "fr": "pouvoir",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-079",
+      "level": "A1",
+      "de": "müssen",
+      "fr": "devoir",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-080",
+      "level": "A1",
+      "de": "lernen",
+      "fr": "apprendre",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-081",
+      "level": "A1",
+      "de": "lesen",
+      "fr": "lire",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-082",
+      "level": "A1",
+      "de": "schreiben",
+      "fr": "écrire",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-083",
+      "level": "A1",
+      "de": "hören",
+      "fr": "entendre / écouter",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-084",
+      "level": "A1",
+      "de": "sehen",
+      "fr": "voir",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-085",
+      "level": "A1",
+      "de": "suchen",
+      "fr": "chercher",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-086",
+      "level": "A1",
+      "de": "finden",
+      "fr": "trouver",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-087",
+      "level": "A1",
+      "de": "nehmen",
+      "fr": "prendre",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-088",
+      "level": "A1",
+      "de": "geben",
+      "fr": "donner",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-089",
+      "level": "A1",
+      "de": "machen",
+      "fr": "faire",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-090",
+      "level": "A1",
+      "de": "spielen",
+      "fr": "jouer",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-091",
+      "level": "A1",
+      "de": "schlafen",
+      "fr": "dormir",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-092",
+      "level": "A1",
+      "de": "fahren",
+      "fr": "aller en véhicule / conduire",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-093",
+      "level": "A1",
+      "de": "bezahlen",
+      "fr": "payer",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-094",
+      "level": "A1",
+      "de": "warten",
+      "fr": "attendre",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-095",
+      "level": "A1",
+      "de": "fragen",
+      "fr": "demander",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-096",
+      "level": "A1",
+      "de": "öffnen",
+      "fr": "ouvrir",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-097",
+      "level": "A1",
+      "de": "schließen",
+      "fr": "fermer",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-098",
+      "level": "A1",
+      "de": "kosten",
+      "fr": "coûter",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-099",
+      "level": "A1",
+      "de": "kochen",
+      "fr": "cuisiner",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-100",
+      "level": "A1",
+      "de": "alt",
+      "fr": "vieux / âgé",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-101",
+      "level": "A1",
+      "de": "jung",
+      "fr": "jeune",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-102",
+      "level": "A1",
+      "de": "neu",
+      "fr": "nouveau",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-103",
+      "level": "A1",
+      "de": "warm",
+      "fr": "chaud",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-104",
+      "level": "A1",
+      "de": "kalt",
+      "fr": "froid",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-105",
+      "level": "A1",
+      "de": "teuer",
+      "fr": "cher",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-106",
+      "level": "A1",
+      "de": "billig",
+      "fr": "bon marché",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-107",
+      "level": "A1",
+      "de": "langsam",
+      "fr": "lent / lentement",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-108",
+      "level": "A1",
+      "de": "schnell",
+      "fr": "rapide / vite",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-109",
+      "level": "A1",
+      "de": "links",
+      "fr": "à gauche",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-110",
+      "level": "A1",
+      "de": "rechts",
+      "fr": "à droite",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-111",
+      "level": "A1",
+      "de": "hier",
+      "fr": "ici",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-112",
+      "level": "A1",
+      "de": "dort",
+      "fr": "là-bas",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-113",
+      "level": "A1",
+      "de": "immer",
+      "fr": "toujours",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-114",
+      "level": "A1",
+      "de": "nie",
+      "fr": "jamais",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-115",
+      "level": "A1",
+      "de": "zusammen",
+      "fr": "ensemble",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-116",
+      "level": "A1",
+      "de": "gern",
+      "fr": "volontiers",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-117",
+      "level": "A1",
+      "de": "Danke!",
+      "fr": "Merci !",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-118",
+      "level": "A1",
+      "de": "Guten Abend!",
+      "fr": "Bonsoir !",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-119",
+      "level": "A1",
+      "de": "Wie viel kostet das?",
+      "fr": "Combien ça coûte ?",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-120",
+      "level": "A1",
+      "de": "Ich verstehe nicht.",
+      "fr": "Je ne comprends pas.",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    },
+    {
+      "id": "pack-a1-121",
+      "level": "A1",
+      "de": "Wo ist …?",
+      "fr": "Où se trouve… ?",
+      "note": "",
+      "plural": "",
+      "revisions": 0
+    }
+  ]
+}
